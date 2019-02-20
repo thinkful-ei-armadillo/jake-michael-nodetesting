@@ -6,10 +6,17 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.18.10"
+    "morgan": "^1.9.1"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "mocha",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
   }
 }
