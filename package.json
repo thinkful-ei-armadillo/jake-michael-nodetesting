@@ -1,0 +1,24 @@
+{
+  "name": "jake-michael-nodetesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-armadillo/jake-michael-nodetesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-armadillo/jake-michael-nodetesting/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-armadillo/jake-michael-nodetesting#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0"
+  }
+}
